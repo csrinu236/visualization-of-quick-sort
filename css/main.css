@@ -75,3 +75,18 @@ input[type="button"]:active {
   border-radius: 10px;
   display: none;
 }
+
+.info {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: 2px solid grey;
+  width: 200px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 1000px) {
+  .info {
+    visibility: visible;
+  }
+}
