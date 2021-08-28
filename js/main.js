@@ -23,6 +23,7 @@ var snapshot_matrix = [],
   halfgreen_matrix = [];
 
 function abc() {
+  document.querySelector(".btn").style.display = "none";
   size = document.getElementById("demo1").value;
   for (i = 0; i < size - 1; i++) {
     arr.push(Math.ceil(Math.random() * 99));
